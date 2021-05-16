@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: b6842be0cc48ac846947ef93a1079a5c
+guid: 5ef926f0922a0374da3dabd1c613b6ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3691513202632701868
-    second: LowerBody_Twist_0
+      213: 8062231792136578665
+    second: UpperBody_Run2_0
   - first:
-      213: -231182441233362471
-    second: LowerBody_Twist_1
+      213: -7214074650886978904
+    second: UpperBody_Run2_1
   - first:
-      213: -3894133632327771868
-    second: LowerBody_Twist_2
+      213: -4087663681157817112
+    second: UpperBody_Run2_2
   - first:
-      213: 3083253665575876968
-    second: LowerBody_Twist_3
+      213: -5471122000655720132
+    second: UpperBody_Run2_3
+  - first:
+      213: 8464524394575909320
+    second: UpperBody_Run2_4
+  - first:
+      213: -2782667152559355340
+    second: UpperBody_Run2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,85 +121,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LowerBody_Twist_0
+      name: UpperBody_Run2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca7369603b3ea3330800000000000000
-      internalID: 3691513202632701868
+      spriteID: 9666923791dc2ef60800000000000000
+      internalID: 8062231792136578665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowerBody_Twist_1
+      name: UpperBody_Run2_1
       rect:
         serializedVersion: 2
-        x: 27
+        x: 37
         y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d15af76bccaaccf0800000000000000
-      internalID: -231182441233362471
+      spriteID: 8a24bbaa35572eb90800000000000000
+      internalID: -7214074650886978904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowerBody_Twist_2
+      name: UpperBody_Run2_2
       rect:
         serializedVersion: 2
-        x: 53
-        y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 75
+        y: 1
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4299339e71245f9c0800000000000000
-      internalID: -3894133632327771868
+      spriteID: 8ec92531a83b547c0800000000000000
+      internalID: -4087663681157817112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowerBody_Twist_3
+      name: UpperBody_Run2_3
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 112
+        y: 1
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86932118fdae9ca20800000000000000
-      internalID: 3083253665575876968
+      spriteID: c316714178ba214b0800000000000000
+      internalID: -5471122000655720132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Run2_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c153530718087570800000000000000
+      internalID: 8464524394575909320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Run2_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a4d8bc7faf169d0800000000000000
+      internalID: -2782667152559355340
       vertices: []
       indices: 
       edges: []
@@ -201,7 +249,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 02cbc8ad8a04f6b48a2861669633cf36
+    spriteID: 5a13c8a005f9a1349b7375d2884070cc
     internalID: 0
     vertices: []
     indices: 

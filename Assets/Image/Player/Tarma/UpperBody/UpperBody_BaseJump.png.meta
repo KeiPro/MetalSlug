@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: b6842be0cc48ac846947ef93a1079a5c
+guid: 21c0d3f41983abe4cb6ce878b1230f2b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3691513202632701868
-    second: LowerBody_Twist_0
+      213: -6651942175114730364
+    second: UpperBody_BaseJump_0
   - first:
-      213: -231182441233362471
-    second: LowerBody_Twist_1
+      213: 5063199536151923387
+    second: UpperBody_BaseJump_1
   - first:
-      213: -3894133632327771868
-    second: LowerBody_Twist_2
+      213: -6528391904200199974
+    second: UpperBody_BaseJump_2
   - first:
-      213: 3083253665575876968
-    second: LowerBody_Twist_3
+      213: -8872977793622760234
+    second: UpperBody_BaseJump_3
+  - first:
+      213: 1596460878358285183
+    second: UpperBody_BaseJump_4
+  - first:
+      213: 8742967440082660481
+    second: UpperBody_BaseJump_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,85 +121,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LowerBody_Twist_0
+      name: UpperBody_BaseJump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 29
+        height: 26
+      alignment: 9
+      pivot: {x: 0.7, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca7369603b3ea3330800000000000000
-      internalID: 3691513202632701868
+      spriteID: 484e8d1d5dd8fa3a0800000000000000
+      internalID: -6651942175114730364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowerBody_Twist_1
+      name: UpperBody_BaseJump_1
       rect:
         serializedVersion: 2
-        x: 27
+        x: 34
         y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 29
+        height: 25
+      alignment: 9
+      pivot: {x: 0.7, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d15af76bccaaccf0800000000000000
-      internalID: -231182441233362471
+      spriteID: bba0243f629144640800000000000000
+      internalID: 5063199536151923387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowerBody_Twist_2
+      name: UpperBody_BaseJump_2
       rect:
         serializedVersion: 2
-        x: 53
+        x: 70
         y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 29
+        height: 24
+      alignment: 9
+      pivot: {x: 0.7, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4299339e71245f9c0800000000000000
-      internalID: -3894133632327771868
+      spriteID: ad07c9be62e7665a0800000000000000
+      internalID: -6528391904200199974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowerBody_Twist_3
+      name: UpperBody_BaseJump_3
       rect:
         serializedVersion: 2
-        x: 79
+        x: 104
         y: 0
-        width: 21
-        height: 16
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 29
+        height: 23
+      alignment: 9
+      pivot: {x: 0.7, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86932118fdae9ca20800000000000000
-      internalID: 3083253665575876968
+      spriteID: 6d4af2f25b9dcd480800000000000000
+      internalID: -8872977793622760234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_BaseJump_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1
+        width: 29
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b8a50e5b4c72610800000000000000
+      internalID: 1596460878358285183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_BaseJump_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 29
+        height: 23
+      alignment: 9
+      pivot: {x: 0.7, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ceee48092455970800000000000000
+      internalID: 8742967440082660481
       vertices: []
       indices: 
       edges: []
@@ -201,7 +249,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 02cbc8ad8a04f6b48a2861669633cf36
+    spriteID: dcad00df98e2f5d4082223f9801f6cef
     internalID: 0
     vertices: []
     indices: 
