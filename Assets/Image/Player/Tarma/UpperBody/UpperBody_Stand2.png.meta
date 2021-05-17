@@ -1,40 +1,37 @@
 fileFormatVersion: 2
-guid: 3c9568bbdb6aa264e9871d8eb7f4cab7
+guid: b46e79d9f515f7d48bc6e3e654bfaa8f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4634893356289236180
-    second: UpperBody_BaseAttack_0
+      213: -8122025188164156587
+    second: UpperBody_Stand2_0
   - first:
-      213: -7846824220013708689
-    second: UpperBody_BaseAttack_1
+      213: -8139202191339711968
+    second: UpperBody_Stand2_1
   - first:
-      213: -2833750761966830872
-    second: UpperBody_BaseAttack_2
+      213: -1416817892733839788
+    second: UpperBody_Stand2_2
   - first:
-      213: 4312333830495092388
-    second: UpperBody_BaseAttack_3
+      213: -8645076074744553495
+    second: UpperBody_Stand2_3
   - first:
-      213: 3146726767428653604
-    second: UpperBody_BaseAttack_4
+      213: 5972652694931436838
+    second: UpperBody_Stand2_4
   - first:
-      213: -6204288131803365651
-    second: UpperBody_BaseAttack_5
+      213: 369507526786518902
+    second: UpperBody_Stand2_5
   - first:
-      213: -6653543003396227110
-    second: UpperBody_BaseAttack_6
+      213: 3020882386776009352
+    second: UpperBody_Stand2_6
   - first:
-      213: 2072580436219385321
-    second: UpperBody_BaseAttack_7
+      213: 557797951008758946
+    second: UpperBody_Stand2_7
   - first:
-      213: -3674224562283989013
-    second: UpperBody_BaseAttack_8
+      213: 5328715993505885236
+    second: UpperBody_Stand2_8
   - first:
-      213: -740442160450331387
-    second: UpperBody_BaseAttack_9
-  - first:
-      213: -559958695475000714
-    second: UpperBody_BaseAttack_10
+      213: 7371087074772420467
+    second: UpperBody_Stand2_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -136,211 +133,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UpperBody_BaseAttack_0
+      name: UpperBody_Stand2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
+        y: 4
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55343baaf15c84f80800000000000000
+      internalID: -8122025188164156587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_1
+      rect:
+        serializedVersion: 2
+        x: 42
         y: 3
-        width: 50
-        height: 23
-      alignment: 9
-      pivot: {x: 0.2299791, y: 0.017971028}
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc107963f2725040800000000000000
-      internalID: 4634893356289236180
+      spriteID: 0229d16fabebb0f80800000000000000
+      internalID: -8139202191339711968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpperBody_BaseAttack_1
+      name: UpperBody_Stand2_2
       rect:
         serializedVersion: 2
-        x: 56
+        x: 79
+        y: 2
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4569e2812a3765ce0800000000000000
+      internalID: -1416817892733839788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_3
+      rect:
+        serializedVersion: 2
+        x: 117
         y: 3
-        width: 51
-        height: 22
-      alignment: 9
-      pivot: {x: 0.22453578, y: 0.017539436}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6ab62732fa7a1390800000000000000
-      internalID: -7846824220013708689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_2
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 4
-        width: 54
-        height: 22
-      alignment: 9
-      pivot: {x: 0.27127513, y: 0.02077794}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ea79f222be7ca8d0800000000000000
-      internalID: -2833750761966830872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_4
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 4
-        width: 37
-        height: 23
-      alignment: 9
-      pivot: {x: 0.339346, y: 0.021909652}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4225cc9a25b6bab20800000000000000
-      internalID: 3146726767428653604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_5
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 4
-        width: 37
-        height: 25
-      alignment: 9
-      pivot: {x: 0.3382028, y: 0.02626051}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dee30bbd0d0f5e9a0800000000000000
-      internalID: -6204288131803365651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_6
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 4
-        width: 37
-        height: 25
-      alignment: 9
-      pivot: {x: 0.31284395, y: 0.02626051}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adf38c0f3edd9a3a0800000000000000
-      internalID: -6653543003396227110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_7
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 4
-        width: 37
-        height: 23
-      alignment: 9
-      pivot: {x: 0.30924535, y: 0.028361134}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e5d74dfce843cc10800000000000000
-      internalID: 2072580436219385321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_8
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 1
-        width: 34
-        height: 26
-      alignment: 9
-      pivot: {x: 0.3372776, y: 0.12654811}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be73c0c3a38820dc0800000000000000
-      internalID: -3674224562283989013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_9
-      rect:
-        serializedVersion: 2
-        x: 376
-        y: 0
-        width: 33
-        height: 27
-      alignment: 9
-      pivot: {x: 0.34344298, y: 0.15685959}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50d92a137cb69b5f0800000000000000
-      internalID: -740442160450331387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpperBody_BaseAttack_10
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 1
         width: 32
-        height: 27
-      alignment: 9
-      pivot: {x: 0.36257648, y: 0.13298456}
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67a42538880aa38f0800000000000000
-      internalID: -559958695475000714
+      spriteID: 9ef5f941d15860880800000000000000
+      internalID: -8645076074744553495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625fa284bff13e250800000000000000
+      internalID: 5972652694931436838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f81fb4321c02500800000000000000
+      internalID: 369507526786518902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aa40486845ce920800000000000000
+      internalID: 3020882386776009352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_7
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac5156f742bdb700800000000000000
+      internalID: 557797951008758946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c6cdd96f663f940800000000000000
+      internalID: 5328715993505885236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperBody_Stand2_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377884c04ac5b4660800000000000000
+      internalID: 7371087074772420467
       vertices: []
       indices: 
       edges: []
@@ -348,7 +345,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7ec00e07ab22de949817f66536bcb4db
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
