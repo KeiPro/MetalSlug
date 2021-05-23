@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using System.Text;
+using System;
 
 
 public class JTestClass
@@ -56,6 +57,28 @@ public class JTestClass
     }
 }
 
+[Serializable]
+public class UpperBody
+{
+    [SerializeField] string state;
+    [SerializeField] List<string> position;
+
+    public UpperBody(string state, List<string> position)
+    {
+        this.state = state;
+        this.position = position;
+    }
+
+    public void Print()
+    {
+        Debug.Log(state);
+
+        foreach (var data in position)
+        {
+            Debug.Log(data);
+        }
+    }
+}
 
 public class JsonExample : MonoBehaviour
 {
@@ -71,13 +94,29 @@ public class JsonExample : MonoBehaviour
 
     void Start()
     {
-        //JTestClass jtc = new JTestClass(true);
-        //string jsonData = ObjectToJson(jtc);
-        //Debug.Log(jsonData);
-        //CreateJsonFile(Application.dataPath, "JTestClass", jsonData);
+        //JTestClass jtestClass = new JTestClass(true);
 
-        var jtc2 = LoadJsonFile<JTestClass>(Application.dataPath, "JTestClass");
-        jtc2.Print();
+        //string jsonData = ObjectToJson(jtestClass);
+
+        string dataPath = Application.dataPath + "/Data";
+
+        //CreateJsonFile(dataPath, "JsonTestFile", jsonData);
+
+        //var jtc2 = LoadJsonFile<JTestClass>(Application.dataPath, "JTestClass");
+        //jtc2.Print();
+
+        UpperBody idleState = new UpperBody("Idle", new List<string>() {"0.0", "0.0"});
+        UpperBody attackState = new UpperBody("Attack", new List<string>() { "1.0", "1.0" });
+
+        string jsonData = ObjectToJson(idleState);
+
+        CreateJsonFile(dataPath, "IdleState", jsonData);
+
+        var idleDataTest = LoadJsonFile<UpperBody>(dataPath, "IdleState");
+        idleDataTest.Print();
+
+        //UpperAndLowerBody upperAndLowerBody = LoadJsonFile<UpperAndLowerBody>(Application.dataPath + "/Data", "UpperBodyDatas");
+        //upperAndLowerBody.Print();
     }
 
     void CreateJsonFile(string createPath, string fileName, string jsonData)

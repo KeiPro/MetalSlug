@@ -1,0 +1,18 @@
+{
+  "upperBodyPos": [
+    {
+      "state": "Idle",
+      "position": [
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "state": "Attack",
+      "position": [
+        "1.0",
+        "1.0"
+      ]
+    }
+  ]
+}
